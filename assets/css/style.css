@@ -54,6 +54,8 @@ html {
 .text-center {
   text-align: center !important;
 }
+
+
 /* main */
 #main {
 }
@@ -66,6 +68,7 @@ html {
   height: 46px;
   background-color: #000;
   z-index: 1;
+  overflow: hidden;
 }
 
 #nav {
@@ -119,7 +122,7 @@ html {
   font-size: 16px;
 }
 
-.search-btn {
+.mobile-menu-btn, .search-btn {
   float: right;
   color: #fff;
   line-height: 46px;
@@ -129,6 +132,11 @@ html {
 .search-btn:hover {
   cursor: pointer;
   background-color: #f44336;
+}
+
+.mobile-menu-btn:hover {
+  background-color: #ccc;
+  color: #000;
 }
 
 /* slider */
@@ -163,6 +171,7 @@ html {
 /* content */
 
 #content {
+
 }
 
 .tour-section {
@@ -170,10 +179,13 @@ html {
 }
 
 #content .content-section {
-  padding: 64px 0 112px;
   width: 800px;
+  max-width: 100%;
+  padding: 64px 0 112px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 #content .content-heading {
