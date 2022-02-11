@@ -48,4 +48,12 @@
     top: 0;
     right: 0;
   }
+  
+  .s-col-full {
+    width: 100%;
+  }
+
+  #content .member-img {
+    width: 60%;
+  }
 }

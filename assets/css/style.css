@@ -213,7 +213,7 @@ html {
 }
 
 #content .members-list {
-  margin: 47px 0;
+  margin: 32px 0;
   overflow: hidden;
 }
 
@@ -267,7 +267,7 @@ html {
 
 .places-list {
   /* margin: 32px -8px 0; */
-  margin-top: 32px;
+  margin-top: 16px;
   margin-bottom: 0px;
 }
 
