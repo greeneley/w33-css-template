@@ -1,20 +1,51 @@
 /* PC */
 @media (min-width: 1024px) {
-    
+  .search-btn {
+    display: block;
+  }
 }
 
 /* Table */
 @media (min-width: 740px) and (max-width: 1023px) {
-    
+  .search-btn {
+    display: block;
+  }
 }
 
 /* Mobile */
 @media (max-width: 739px) {
-    #nav > li {
-        display: block;
-    }
+  #nav {
+    display: block;
+    position: relative;
+  }
 
-    .search-btn {
-        display: none;
-    }
+  #header {
+    overflow: hidden;
+  }
+
+  #nav > li {
+    display: block;
+  }
+
+  #nav > li:first-child {
+    display: inline-block;
+  }
+
+  .subnav {
+    position: initial;
+    background-color: #333;
+  }
+
+  .subnav > li > a {
+    color: #fff;
+    padding: 8px 41px;
+    display: block;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }

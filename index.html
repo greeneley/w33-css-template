@@ -261,9 +261,15 @@
 
         // Tu dong dong' khi chon menu
         var menuItems = document.querySelectorAll("#nav li a[href*='#']");
+
         for (var menuItem of menuItems) {
-            menuItem.onclick = function () {
+            menuItem.onclick = function (event) {
+            const isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+            if (isParentMenu) {
+                event.preventDefault();
+            } else {
                 header.style.height = null;
+            }
             }
         }
     </script>

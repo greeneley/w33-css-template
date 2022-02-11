@@ -68,7 +68,7 @@ html {
   height: 46px;
   background-color: #000;
   z-index: 1;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 #nav {
@@ -86,7 +86,7 @@ html {
   text-transform: uppercase;
   text-decoration: none;
   padding: 0 24px;
-  display: inline-block;
+  display: block;
 }
 
 #nav li a {
@@ -123,11 +123,14 @@ html {
 }
 
 .mobile-menu-btn, .search-btn {
+  display: none;
   float: right;
   color: #fff;
   line-height: 46px;
   padding: 0 23px;
 }
+
+
 
 .search-btn:hover {
   cursor: pointer;
