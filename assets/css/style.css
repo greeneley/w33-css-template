@@ -47,6 +47,10 @@ html {
   margin-top: 16px;
 }
 
+.mt-32 {
+  margin-top: 32px;
+}
+
 .text-white {
   color: #fff !important;
 }
@@ -309,6 +313,7 @@ html {
   text-decoration: none;
   padding: 11px 16px;
   display: inline-block;
+  text-align: center;
 }
 
 .place-ticket-btn:hover {

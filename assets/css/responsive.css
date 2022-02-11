@@ -14,6 +14,20 @@
 
 /* Mobile */
 @media (max-width: 739px) {
+
+  .s-mt-8 {
+    margin-top: 8px !important;
+  }
+
+  .s-mt-16 {
+    margin-top: 16px !important;
+  }
+
+  .s-full-width,
+  .s-col-full {
+    width: 100% !important;
+  }
+
   #nav {
     display: block;
     position: relative;
@@ -49,11 +63,10 @@
     right: 0;
   }
   
-  .s-col-full {
-    width: 100%;
-  }
 
   #content .member-img {
     width: 60%;
   }
+
+
 }
